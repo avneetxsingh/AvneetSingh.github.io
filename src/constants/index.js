@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Programming Languages : Python, Django, SQL, PyCharm, Java, C++, Matlab, ",
     icon: web,
   },
   {
-    title: "Python, Django",
+    title: "Softwares : Git, GitHub, Docker, Figma, Three.js, Visual Studio",
     icon: mobile,
   },
   {
-    title: "Java",
+    title: "Promt Engineering, Cybersecurity, Technical Support, IT Support, Data Management",
     icon: backend,
   },
   {
-    title: "Promt Engineering",
+    title: "Web Develpment : React, Tailwind CSS, Node.js, JavaScript, HTML, CSS,",
     icon: creator,
   },
 ];
@@ -122,9 +122,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "October 2023 - Present",
     points: [
-      "Led computer system installation in the College of Engineering, prioritizing robust cybersecurity and ensuring licensing compliance",
+      "Provide technical support to over 500+ university members by installing and configuring desktops and laptops, ensuring compliance with cybersecurity, and licensing agreements.",
+      "Provided comprehensive technical support to faculty, staff, and students, ensuring the smooth operation of the College of Engineering's IT infrastructure.",
       "Streamlined high-volume IT ticket queue, reducing resolution time, and enhancing overall user satisfaction.",
-      "Prioritized comprehensive communication, resulting in a 20% decrease in recurring issues.",
       "Installation and maintenance of computer systems, prioritizing licensing compliance and nsuring the reliability and security of the College of Engineering's technical infrastructure."
 
       // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality projects.",
@@ -133,7 +133,7 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
+    title: "Web Developer Intern",
     company_name: "Softage Information Technology Limited",
     icon: tesla,
     iconBg: "#E6DEDD",
@@ -145,22 +145,22 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Self-Employed Game Developer",
-    company_name: "Roblox",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "May 2022 - August 2023",
-    points: [
-      "Implemented debugging techniques for improved gameplay and heightened player satisfaction.",
-      "Actively participated in collaborative brainstorming sessions for creative game design.",
-      "Contributed to a positive team dynamic, fostering an environment of creativity and productivity.",
-      "Kept abreast of the latest trends and technologies in the field of game development.",
-    ],
-  },
+  // {
+  //   title: "Self-Employed Game Developer",
+  //   company_name: "Roblox",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "May 2022 - August 2023",
+  //   points: [
+  //     "Implemented debugging techniques for improved gameplay and heightened player satisfaction.",
+  //     "Actively participated in collaborative brainstorming sessions for creative game design.",
+  //     "Contributed to a positive team dynamic, fostering an environment of creativity and productivity.",
+  //     "Kept abreast of the latest trends and technologies in the field of game development.",
+  //   ],
+  // },
   {
     title: "Student Manager",
-    company_name: "Subway",
+    company_name: "Chartwells Higher Education Services",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "September 2022 - September 2023",
@@ -214,6 +214,48 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Personal Portfolio",
+    description:
+      "Developed a personal portfolio website using React, Tailwind CSS, and Framer Motion.Implemented advanced features, including a dark mode toggle, smooth animations, and a responsive design.",
+    tags: [
+      {
+        name: "Web devolpment",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: creator,
+    source_code_link: "https://github.com/avneetxsingh/Personal-Portfolio",
+  },
+  {
+    name: "AI Training Data Collection Platform",
+    description:
+      "Developed a web application using Python, Django, HTML and css to collect and manage training data for AI models.Implemented advanced features, including user authentication, data visualization, and data management.",
+    tags: [
+      {
+        name: "Web devolpment",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Database Management",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AI training",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/avneetxsingh",
+  },
+  {
     name: "WhatsApp Automation Bot",
     description:
       "Developed a Python script using the PyAutoGUI library to automate repetitive messaging tasks on WhatsApp Web.Implemented user-friendly customization features, including target contact, message content, and message count.",
@@ -255,27 +297,27 @@ const projects = [
     image: jobit,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Question Answer Web App",
-    description:
-      "This project involves creating a dynamic webpage using HTML, CSS, and JavaScript with Django as the backend framework. The design includes a logo, a dropdown menu for topic selection, and a chat interface. Users can submit answers, and content is loaded dynamically through Django's template engine, enhancing the overall interactivity of the webpage.",
-    tags: [
-      {
-        name: "Web Development",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Database Management",
-        color: "green-text-gradient",
-      },
-      {
-        name: "AI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/avneetxsingh/ques_answ_Softage",
-  },
+  // {
+  //   name: "Question Answer Web App",
+  //   description:
+  //     "This project involves creating a dynamic webpage using HTML, CSS, and JavaScript with Django as the backend framework. The design includes a logo, a dropdown menu for topic selection, and a chat interface. Users can submit answers, and content is loaded dynamically through Django's template engine, enhancing the overall interactivity of the webpage.",
+  //   tags: [
+  //     {
+  //       name: "Web Development",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Database Management",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "AI",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/avneetxsingh/ques_answ_Softage",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
