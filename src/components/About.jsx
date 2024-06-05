@@ -39,16 +39,17 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} style={{ position: 'relative' }}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
         <motion.a
           href={docker}
           download="resume.pdf"
-          className='bg-blue-500 text-white py-2 px-4 rounded-md shadow-md hover:bg-blue-600 transition duration-300'
-          whileHover={{ scale: 1.05 }}
+          className='resume-button'
+          initial={{ scale: 1 }}
+          whileHover={{ scale: 1.1 }}
         >
-          Download Resume
+          <span>Download Resume</span>
         </motion.a>
       </motion.div>
 
@@ -70,6 +71,30 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+
+      <style jsx>{`
+        .resume-button {
+          position: relative;
+          display: inline-block;
+          overflow: hidden;
+          color: #fff;
+          text-decoration: none;
+          float: right; /* Position to the right */
+          background: rgba(255, 255, 255, 0.2);
+          backdrop-filter: blur(10px);
+          padding: 10px 20px;
+          border-radius: 10px;
+          transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .resume-button:hover {
+          background: rgba(255, 255, 255, 0.3);
+        }
+
+        .resume-button span {
+          display: block;
+        }
+      `}</style>
     </>
   );
 };
